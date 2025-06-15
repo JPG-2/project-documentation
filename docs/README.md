@@ -11,8 +11,8 @@ Este é um projeto de um jogo educativo voltado para estudantes de Direito, com 
 Para contribuir, basta seguir o passo a passo das páginas **Getting Started** e **Contributing** das Wikis.
 
 - API
-  - [Getting Started](api/getting-started.md)
-  - [Contributing](api/contributing.md)
+  - [Getting Started](api/api-getting-started.md)
+  - [Contributing](api/api-contributing.md)
 - Game Dev
   - In progress
 
