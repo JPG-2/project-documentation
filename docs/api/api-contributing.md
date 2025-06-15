@@ -20,7 +20,7 @@ Você pode contribuir de várias formas:
 - `api/services/` → lógica de negócio
 - `api/models/` → entidades/dados
 - `api/dto/` → validação dos dados
-- Veja mais [aqui](api/project-structure.md)
+- Veja mais [aqui](api/api-project-structure.md)
 
 ## Como contribuir de fato
 
