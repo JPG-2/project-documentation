@@ -18,7 +18,7 @@ Para contribuir, basta seguir o passo a passo das páginas **Getting Started** e
 
 ## Documentação
 
-Caso você ache que alguma informação está faltando, ou não está claro o suficiente, é possível clonar o repositório desta Wiki e realizar alterações. Caso precise de ajuda, veja a página [Documentation Contribution](#).
+Caso você ache que alguma informação está faltando, ou não está claro o suficiente, é possível clonar o repositório desta Wiki e realizar alterações. Caso precise de ajuda, veja a página [Contribuindo com a Wiki](wiki-contributing.md).
 
 ---
 
