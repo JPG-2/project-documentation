@@ -27,13 +27,13 @@ Para podermos desenvolver sem ter problemas de compatibilidade, é ideal utiliza
 python -m venv .venv
 ./.venv/Scripts/activate
 ```
-> Um marcador escrito (venv) deve aparecer no teminal.
 
 ```bash
 # Linux
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+> [!NOTE]
 > Um marcador escrito (venv) deve aparecer no teminal.
 
 Com isso, você já tem um ambiente criado e ativado, pronto para o desenvolvimento. Lembre-se de que toda vez que você for desenvolver, é necessário ativar o ambiente.
@@ -41,6 +41,9 @@ Com isso, você já tem um ambiente criado e ativado, pronto para o desenvolvime
 ## Instalando as dependências
 
 Todas as dependências do projeto estão salvos no arquivo `requirements.txt`, basta utilizar o `pip` para instalá-los.
+
+> [!ATTENTION]
+> A library **uvloop** não funciona no **Windows**, você deve removê-la antes de instalar todas as libs.
 
 ```bash
 pip install -r requirements.txt
