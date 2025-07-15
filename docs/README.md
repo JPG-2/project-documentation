@@ -16,6 +16,7 @@ Para contribuir, basta seguir o passo a passo das páginas **Getting Started** e
 - [Game Dev](game-dev/README.md)
   - [Game Design Document](game-dev/game-design-document.md)
   - [Technical Design Document](game-dev/technical-design-document.md)
+  - [Project Structure](game-dev/project-structure.md)
 
 ## Documentação
 
