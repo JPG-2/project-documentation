@@ -83,8 +83,9 @@ Para ver mais sobre a sintaxe do Markdown, acesse esse [guia](https://markdown.n
 
 Organize os arquivos com nomes claros e em diretórios que corresponde ao tema abordado em seu conteúdo. Por exemplo:
 
-|Diretório|Função                                   |
-|---      |---                                      |
-|`api/`   |Arquivos relacionado com o projeto da API|
+| Diretório   | Função                                                    |
+|-------------|-----------------------------------------------------------|
+| `api/`      | Arquivos relacionado com o projeto da API                 |
+| `game-dev/` | Arquivos relacionados a documentação do game development  |
 
 Ao criar uma nova página, é necessário adicionar um link para a mesma no arquivo `_sidebar.md` e `navbar.md`.
