@@ -19,6 +19,7 @@
 - **Scripts:** Nomeados no padrão `kebab-case.gd`. Cada script controla sua própria cena.
 - **Cenas:** Hierarquia modular e clara. Evite cenas gigantes.
 - **Assets:** Nomes descritivos (`player_idle.png`, `enemy_attack.wav`).
+- **Testes**: Todas as cenas de teste devem ser postas no diretório /scenes/tests. Além disso, devem ter o prefixo `test`. Por exemplo: `test-player-moviment`, `test-enemy-behavior`...
 
 ---
 
