@@ -2,8 +2,10 @@
 
 Prepare o ambiente de desenvolvimento com Godot. Mas antes de começar, veja os reuqisitos.
 
-- [Instalando o Godot (Windows)](#instalando-o-godot-windows)
-- [Instalando o Godot (Linux)](#instalando-o-godot-linux)
+- [Instalando o Godot](#instalando-o-godot)
+- [Abrindo o Projeto](#abrindo-o-projeto)
+- [Contributing](#contributing)
+
 ---
 
 ## Requisitos
@@ -48,3 +50,27 @@ sudo ln -s /opt/caminho/para/o/binário /usr/local/bin/godot
 ```
 
 Agora reinicie seu terminal, e pronto! Você pode abrir o Godot digitando o comando `godot` no terminal.
+
+## Abrindo o Projeto
+
+Agora que você tem o Godot instalado, você está pronto para abrir o projeto. Primeiro, você precisa clonar o projeto. Para isso, execute:
+
+```bash
+git clone https://github.com/doda-s/jpg2-project.git
+```
+
+Depois de clonar o projeto, será necessário importá-lo para dentro do Godot. Para fazer isso, clique no botão `Importar`.
+
+![godot-import-project](../images/godot-import-project.png)
+
+Irá abrir uma janela de seleção de pasta. Navegue até o diretório onde você fez o clone do projeto. Selecione a pasta, e clique em `Selecionar Esta Pasta`.
+
+![godot-select-project](../images/godot-select-project.png)
+
+Você pode marcar a opção `Editar agora` caso queira que o Godot abra o projeto automaticamente. Depois, basta clicar em `Importar`
+
+![godot-import-and-edit](../images/godot-import-and-edit.png)
+
+## Contributing
+
+Caso queira contribuir, você pode acessar a página [Contributing](#), para ver como fazer isso.
