@@ -13,7 +13,7 @@ Prepare o ambiente de desenvolvimento com Godot. Mas antes de começar, veja os 
 
 ---
 
-## Instalando o Godot (Windows)
+## Instalando o Godot
 
 A versão do Godot que será utilizada no projeto será `Godot v4.4.1` com suporte a `C#`. Acesse a página de download do Godot para baixar o `.zip` da Engine.
 
@@ -28,15 +28,23 @@ Procure pela versão `4.4.1-stable` e baixe o instalador.
 
 ![godot-download-page](../images/godot-download-page.png)
 
-Depois, clique no botão `.NET`, para baixar a versão com suporte a C#.
+Depois, clique no botão `.NET`, para baixar a versão com suporte a C# de acordo com o seu sistema operacional.
 
 ![download-godot](../images/godot-download.png)
+
+### Windows
 
 Ao terminar o download do `.zip`, você deve criar a pasta `C:/Godot`, e em seguida extrair os arquivos do `.zip` para dentro dela. E pronto, o Godot está instalado!
 
 > [!NOTE]
 > Você pode notar que tem dois executáveis, `Godot_v4.4-stable_mono_win64.exe` e `Godot_v4.4-stable_mono_win64_console.exe`. Você deve utilizar o `Godot_v4.4-stable_mono_win64.exe` para abrir a Engine.
 
-## Instalando o Godot (Linux)
+### Linux
 
-#TODO
+Ao terminar o download do `.zip`, você deve extrair a os arquivos de dentro dele para a pasta `/opt`. Uma boa prática pode ser renomear a pasta extraída para `godot-bin`. Você pode adicionar o binário na pasta de PATH do seu user. Para isso execute:
+
+```bash
+sudo ln -s /opt/caminho/para/o/binário /usr/local/bin/godot
+```
+
+Agora reinicie seu terminal, e pronto! Você pode abrir o Godot digitando o comando `godot` no terminal.
