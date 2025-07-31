@@ -15,7 +15,7 @@ Prepare o ambiente de desenvolvimento com Godot. Mas antes de começar, veja os 
 
 ## Instalando o Godot (Windows)
 
-A versão do Godot que será utilizada no projeto será `Godot v4.4.1` com suporte a `C#`. Acesse a página de download do Godot para baixar o instalador.
+A versão do Godot que será utilizada no projeto será `Godot v4.4.1` com suporte a `C#`. Acesse a página de download do Godot para baixar o `.zip` da Engine.
 
 Caso versão latest seja a atual, pode clicar no botão `Download Latest`. Caso não seja o caso, pode clicar na oplção `previous version`.
 
