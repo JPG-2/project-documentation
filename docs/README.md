@@ -14,6 +14,7 @@ Para contribuir, basta seguir o passo a passo das páginas **Getting Started** e
   - [Getting Started](api/api-getting-started.md)
   - [Contributing](api/api-contributing.md)
 - [Game Dev](game-dev/README.md)
+  - [Getting Started](./game-dev/getting-started.md)
   - [Game Design Document](game-dev/game-design-document.md)
   - [Technical Design Document](game-dev/technical-design-document.md)
   - [Project Structure](game-dev/project-structure.md)

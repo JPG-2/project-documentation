@@ -10,5 +10,5 @@ Este é um jogo educativo voltado para estudantes de Direito, com foco na discip
 
 É recomendado verificar as seguintes páginas desta Wiki sobre Game Development:
 
-- [Getting Started](#) (#TODO)
+- [Getting Started](./getting-started.md)
 - [Contributing](#) (#TODO)
