@@ -80,7 +80,7 @@ Nesse projeto será utilizado o [Gitflow](https://github.com/JuniorLima22/padroe
 
 O processo consiste em realizar um fork da branch `main` para `develop`. Para adicionar features, deve-se fazer fork (ou criar uma nova) da branch develop para uma branch `feat`. Depois de finalizar a nova feature, publicar a branch de feature e abrir PR para a branch `develop`.
 
-> [!IMPORTANT]
+> [!ATTENTION]
 > Antes de publicar a branch de feature, atualize a branch `develop` local, e faça merge na sua branch de feature. Caso tenha algum conflito, resolva localmente. Caso seja aberta PR, e contenha algum conflito, a mesma será negada.
 
 ### Commits
