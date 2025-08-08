@@ -73,10 +73,16 @@ Os padrões aqui definidos, devem ser seguidos (até rimou).
 
 Nesse projeto será utilizado o [Gitflow](https://github.com/JuniorLima22/padroes-e-nomenclaturas-no-git?tab=readme-ov-file#gitflow), que consiste nas seguintes branches:
 
+#### Padrão
+
 - `main`: A branch principal, a qual contém as versões finais produzidas.
 - `develop`: Branch de desenvolvimento.
 - `feat`: Branch de desenvolvimento de feature.
 - `fix`: Branch de hotfix.
+
+#### Outras
+
+- `res`: Branch para adicionar algum recurso/asset.
 
 O processo consiste em realizar um fork da branch `main` para `develop`. Para adicionar features, deve-se fazer fork (ou criar uma nova) da branch develop para uma branch `feat`. Depois de finalizar a nova feature, publicar a branch de feature e abrir PR para a branch `develop`.
 
@@ -87,10 +93,16 @@ O processo consiste em realizar um fork da branch `main` para `develop`. Para ad
 
 Para os commits iremos aplicar [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/). Que consiste em adicionar um prefixo aos commits. Seriam esses:
 
+#### Padrão
+
 - `fix`: Ao resolver alguma falha ou bug.
 - `feat`: Ao adicionar uma nova funcionalidade.
 - `refactor`: Ao reestruturar códigos, mas sem mudar/adicionar funcionalidade.
 - `docs`: Ao alterar documentação.
+
+Outros
+
+- `res`: Ao adicionar recurosos/assets, sem modificar nada de funcionalidade.
 
 Os commits deve ser feitos com mensagens curtas, claras, e objetivas. Tente sempre respeitar o limite de 50 caracteres, ultrapasse esse limite apenas quando necessário.
 
