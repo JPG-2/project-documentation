@@ -79,6 +79,7 @@ Nesse projeto será utilizado o [Gitflow](https://github.com/JuniorLima22/padroe
 - `develop`: Branch de desenvolvimento.
 - `feat`: Branch de desenvolvimento de feature.
 - `fix`: Branch de hotfix.
+- `chore`: Branch para alterações que não afetam o código-fonte ou os teste.
 
 #### Outras
 
@@ -99,10 +100,7 @@ Para os commits iremos aplicar [Conventional Commits](https://www.conventionalco
 - `feat`: Ao adicionar uma nova funcionalidade.
 - `refactor`: Ao reestruturar códigos, mas sem mudar/adicionar funcionalidade.
 - `docs`: Ao alterar documentação.
-
-Outros
-
-- `res`: Ao adicionar recurosos/assets, sem modificar nada de funcionalidade.
+- `chore`: Para alterações que não afetam o código-fonte ou os teste.
 
 Os commits deve ser feitos com mensagens curtas, claras, e objetivas. Tente sempre respeitar o limite de 50 caracteres, ultrapasse esse limite apenas quando necessário.
 
